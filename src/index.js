@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+// src/index.js
 import './index.css';
+import './animations.js';   // ← new line
+// …existing imports…
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
