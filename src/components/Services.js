@@ -19,7 +19,7 @@ const Services = () => {
           {servicesData.map((service, idx) => (
             <div
               key={service.title}
-              className="service-card group relative bg-gradient-to-br from-[#1c1c1c] to-[#161616] "
+              className="service-card group relative bg-gradient-to-br from-[#1c1c1c] to-[#161616] hover:scale-105 transition duration-300"
             >
               <div className="absolute inset-0 bg-gradient-to-br from-[#ff7a00]/0 to-[#ff9a1f]/0 group-hover:from-[#ff7a00]/10 group-hover:to-[#ff9a1f]/10 rounded-lg transition-all duration-300" />
               <div className="relative z-10">

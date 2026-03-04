@@ -39,11 +39,11 @@ const Hero = () => {
           }`}>
             <span className="text-5xl md:text-6xl text-[#ff9a1f] drop-shadow-lg">★</span>
             <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
-              <span className="text-2xl md:text-3xl font-black text-white">4.7 Rating</span>
-              <span className="hidden sm:inline text-gray-300">•</span>
-              <span className="text-sm md:text-base text-gray-300">4,000+ Google Reviews</span>
-              <span className="hidden sm:inline text-gray-300">•</span>
-              <span className="text-sm md:text-base text-gray-300">₹200–400</span>
+              <span className="text-lg md:text-xl font-medium text-white">4.7 Rating</span>
+              <span className="hidden sm:inline text-lg md:text-xl text-gray-300 font-medium">•</span>
+              <span className="text-lg md:text-xl text-gray-300 font-medium">4,000+ Google Reviews</span>
+              <span className="hidden sm:inline text-lg md:text-xl text-gray-300 font-medium">•</span>
+              <span className="text-lg md:text-xl text-gray-300 font-medium">₹200–400</span>
             </div>
           </div>
 
@@ -68,7 +68,7 @@ const Hero = () => {
           </div>
 
           {/* Scroll indicator */}
-          <div className={`absolute bottom-8 left-1/2 transform -translate-x-1/2 transition-all duration-1000 delay-700 ${
+          {/* <div className={`absolute bottom-8 left-1/2 transform -translate-x-1/2 transition-all duration-1000 delay-700 ${
             isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
           }`}>
             <div className="flex flex-col items-center gap-2">
@@ -77,7 +77,7 @@ const Hero = () => {
                 <div className="w-1 h-2 bg-gray-400 rounded-full mt-2 animate-bounce" />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

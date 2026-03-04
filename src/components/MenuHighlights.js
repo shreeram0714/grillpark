@@ -19,7 +19,7 @@ const MenuHighlights = () => {
           {items.map((item) => (
             <div
               key={item.name}
-              className="group menu-item-card bg-gradient-to-br from-[#1c1c1c] to-[#161616] p-5 md:p-6 rounded-xl cursor-pointer relative overflow-hidden"
+              className="group menu-item-card bg-gradient-to-br from-[#1c1c1c] to-[#161616] p-5 md:p-6 rounded-xl cursor-pointer relative overflow-hidden hover:scale-105 transition duration-300"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-[#ff7a00]/0 via-[#ff9a1f]/5 to-[#ff7a00]/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               <div className="relative z-10 flex items-start justify-between">
