@@ -1,8 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const Navbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
   return (
     <nav className="bg-[#0f0f0f] text-white sticky top-0 z-40 border-b border-[#ff7a00]/30 backdrop-blur-sm">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
